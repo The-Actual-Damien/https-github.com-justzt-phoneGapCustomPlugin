@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
-    id="com.ionic.keyboard"
+    id="com.souche.myPlugin"
     version="1.0.3">
     <name>open viewcontroller</name>
     <description>open a view controller</description>
