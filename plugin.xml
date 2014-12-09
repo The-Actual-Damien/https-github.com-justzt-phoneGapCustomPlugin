@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<plugin xmlns="http://apache.org/cordova/ns/plugins/1.0"
+    id="com.ionic.keyboard"
+    version="1.0.3">
+    <name>open viewcontroller</name>
+    <description>open a view controller</description>
+    <license>Apache 2.0</license>
+    <keywords>open controller</keywords>
+    <repo>https://github.com/justzt/phoneGapCustomPlugin.git</repo>
+
+    <!-- ios -->
+    <platform name="ios">
+        <config-file target="config.xml" parent="/*">
+            <feature name="MyPlugin">
+                <param name="ios-package" value="MyPlugin" onload="true" />
+            </feature>
+        </config-file>
+
+        <header-file src="CDVMyPlugin.h" />
+        <source-file src="CDVMyPlugin.m" />
+          
+	</platform>
+</plugin>
