@@ -13,7 +13,7 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="MyPlugin">
-                <param name="ios-package" value="CDVMyPlugin" onload="true" />
+                <param name="ios-package" value="CDVMyPlugin"/>
             </feature>
         </config-file>
 
