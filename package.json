@@ -1,7 +1,7 @@
 {
     "version": "1.0",
     "name": "com.souche.myplugin",
-    "cordova_name": "MyPlugin",
+    "cordova_name": "MyPlugin2",
     "description": "open a view controller",
     "repo": "https://github.com/justzt/phoneGapCustomPlugin.git",
     "license": "MIT",
