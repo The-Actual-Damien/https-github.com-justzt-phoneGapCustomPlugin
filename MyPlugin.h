@@ -8,7 +8,7 @@
 
 #import <Cordova/CDVPlugin.h>
 
-@interface CDVMyPlugin : CDVPlugin
+@interface MyPlugin : CDVPlugin
 
 @property (nonatomic, copy) NSString* callbackID;
 @end

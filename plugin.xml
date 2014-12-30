@@ -13,12 +13,12 @@
     <platform name="ios">
         <config-file target="config.xml" parent="/*">
             <feature name="MyPlugin">
-                <param name="ios-package" value="CDVMyPlugin"/>
+                <param name="ios-package" value="MyPlugin"/>
             </feature>
         </config-file>
 
-        <header-file src="CDVMyPlugin.h" />
-        <source-file src="CDVMyPlugin.m" />
+        <header-file src="MyPlugin.h" />
+        <source-file src="MyPlugin.m" />
           
 	</platform>
 </plugin>
